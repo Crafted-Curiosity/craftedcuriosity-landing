@@ -4,10 +4,11 @@ This repository hosts a simple **Coming Soon** page for **Crafted Curiosity**.
 
 ## 🌐 How it works
 
-1. **GitHub Pages** serves `index.html` from the `main` branch.
-2. All subdomains like `fit.`, `bakery.`, etc. point via CNAME in Namecheap to:`crafted-curiosity.github.io.`
-3. So all subdomains show this shared landing page.
-4. Later, replace subdomain with their own repos + `CNAME` file as needed.
+1. **Netlify hosting** serves `index.html` from the `main` branch.
+2. 🚀 This site is now hosted on Netlify: [www.craftedcuriosity.org](https://www.craftedcuriosity.org)
+3. All subdomains like `fit.`, `bakery.`, etc. point via CNAME in Namecheap to:`crafted-curiosity.github.io.`
+4. So all subdomains show this shared landing page.
+5. Later, replace subdomain with their own repos + `CNAME` file as needed.
 
 ## 📁 Files
 
