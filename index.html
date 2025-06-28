@@ -42,6 +42,21 @@
       bottom: 1rem;
     }
   </style>
+  <script>
+  window.addEventListener("DOMContentLoaded", () => {
+    const subdomain = window.location.hostname.split('.')[0];
+    const isMainDomain = subdomain === "www" || subdomain === "craftedcuriosity"; // fallback if accessed via GitHub domain
+
+    const title = document.querySelector("h1");
+    const subtitle = document.querySelector("p");
+
+    if (!isMainDomain) {
+      title.textContent = `🚧 ${subdomain.toUpperCase()} @ Crafted Curiosity`;
+      subtitle.textContent = `Our ${subdomain} project is coming soon. Stay curious!`;
+    }
+  });
+</script>
+
 </head>
 <body>
   <main>
